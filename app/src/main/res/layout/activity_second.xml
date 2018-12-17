@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22ff5d"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+
+    <Button
+        android:id="@+id/comillaButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:background="@color/colorAccent"
+        android:text="Comilla University"
+        android:textColor="#f7f2f2"
+        android:textSize="30sp"
+
+        />
+
+    <Button
+        android:id="@+id/bardButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:background="@color/colorPrimaryDark"
+        android:text="Bard"
+        android:textColor="#f7f2f2"
+        android:textSize="30sp"
+
+        />
+
+    <Button
+        android:id="@+id/moynamotiButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:background="@color/colorAccent"
+        android:text="Moynamoti"
+        android:textColor="#f7f2f2"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/lalmoyButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:background="@color/colorPrimaryDark"
+        android:text="LalmoyPahar"
+        android:textColor="#f7f2f2"
+        android:textSize="30sp" />
+</LinearLayout>
